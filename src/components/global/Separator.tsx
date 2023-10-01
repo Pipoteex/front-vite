@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import fondo from "../../images/fondoSeparador.svg";
 import newFondo from "../../images/newfondo.jpeg";
 
 const StyledDivisor = styled.div`

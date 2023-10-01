@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 import trigo from "../images/logo/trigo.png";
