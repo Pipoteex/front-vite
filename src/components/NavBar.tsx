@@ -116,13 +116,12 @@ export const NavBar = () => {
                     <StyledItem itemID="services" onClick={handleOnClick}>
                         Talleres
                     </StyledItem>
-                    {/* <StyledItem itemID="galeria" onClick={handleOnClick}>
-                        Galeria
-                    </StyledItem> */}
-
-                    {/* <StyledItem itemID="equipo" onClick={handleOnClick}>
+                    <StyledItem itemID="cangorosa" onClick={handleOnClick}>
                         Cangorosa
-                    </StyledItem> */}
+                    </StyledItem>
+                    <StyledItem itemID="blabla" onClick={handleOnClick}>
+                        Bla Bla
+                    </StyledItem>
                     <StyledItem itemID="contact" onClick={handleOnClick}>
                         Contacto
                     </StyledItem>
@@ -144,13 +143,12 @@ export const NavBar = () => {
                     <StyledItem itemID="services" onClick={handleOnClick}>
                         Talleres
                     </StyledItem>
-                    {/* <StyledItem itemID="galeria" onClick={handleOnClick}>
-                        Galeria
-                    </StyledItem> */}
-
-                    {/* <StyledItem itemID="equipo" onClick={handleOnClick}>
+                    <StyledItem itemID="cangorosa" onClick={handleOnClick}>
                         Cangorosa
-                    </StyledItem> */}
+                    </StyledItem>
+                    <StyledItem itemID="blabla" onClick={handleOnClick}>
+                        Bla Bla
+                    </StyledItem>
                     <StyledItem itemID="contact" onClick={handleOnClick}>
                         Contacto
                     </StyledItem>

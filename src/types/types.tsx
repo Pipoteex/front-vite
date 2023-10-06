@@ -3,6 +3,8 @@ export interface JSONData {
     Gallery: Gallery[];
     Services: Service[];
     Contact: Contact;
+    Cangorosa: Cangorosa;
+    BlaBla: BlaBla;
 }
 
 export interface About {
@@ -32,4 +34,16 @@ export interface Service {
     type: string;
     text: string;
     time?: number;
+}
+
+export interface Cangorosa {
+    title: string;
+    text1: string;
+    text2: string;
+}
+
+export interface BlaBla {
+    title: string;
+    text1: string;
+    text2: string;
 }

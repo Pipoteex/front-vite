@@ -17,7 +17,9 @@ const StyledItemServices = styled.div`
     & > div:nth-child(1) {
         width: 70%;
         h4 {
+            font-size: 20px;
             font-weight: 500;
+            /* text-align: center; */
         }
         h6 {
             text-decoration: underline;
