@@ -116,13 +116,13 @@ export const NavBar = () => {
                     <StyledItem itemID="services" onClick={handleOnClick}>
                         Talleres
                     </StyledItem>
-                    <StyledItem itemID="galeria" onClick={handleOnClick}>
+                    {/* <StyledItem itemID="galeria" onClick={handleOnClick}>
                         Galeria
-                    </StyledItem>
+                    </StyledItem> */}
 
-                    <StyledItem itemID="equipo" onClick={handleOnClick}>
+                    {/* <StyledItem itemID="equipo" onClick={handleOnClick}>
                         Cangorosa
-                    </StyledItem>
+                    </StyledItem> */}
                     <StyledItem itemID="contact" onClick={handleOnClick}>
                         Contacto
                     </StyledItem>
@@ -139,20 +139,18 @@ export const NavBar = () => {
             {viewItems ? (
                 <StyledItemsContainerTwo>
                     <StyledItem itemID="about" onClick={handleOnClick}>
-                        Sobre nosotros
+                        Biografia
                     </StyledItem>
                     <StyledItem itemID="services" onClick={handleOnClick}>
-                        WorkShop
+                        Talleres
                     </StyledItem>
-                    <StyledItem itemID="galeria" onClick={handleOnClick}>
+                    {/* <StyledItem itemID="galeria" onClick={handleOnClick}>
                         Galeria
-                    </StyledItem>
-                    <StyledItem itemID="news" onClick={handleOnClick}>
-                        Novedades
-                    </StyledItem>
-                    <StyledItem itemID="equipo" onClick={handleOnClick}>
-                        Equipo
-                    </StyledItem>
+                    </StyledItem> */}
+
+                    {/* <StyledItem itemID="equipo" onClick={handleOnClick}>
+                        Cangorosa
+                    </StyledItem> */}
                     <StyledItem itemID="contact" onClick={handleOnClick}>
                         Contacto
                     </StyledItem>

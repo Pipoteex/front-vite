@@ -54,7 +54,6 @@ const StyledItemServices = styled.div`
         }
         & > div:nth-child(2) {
             width: 100%;
-            /* margin: 20px; */
             height: 400px;
             & > div {
                 height: 100%;
