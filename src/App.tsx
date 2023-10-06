@@ -4,6 +4,8 @@ import { Welcome } from "./components/Welcome";
 import { AboutComponent } from "./components/About";
 import JsonData from "./data/data.json";
 import { JSONData } from "./types/types";
+import { NavBar } from "./components/NavBar";
+import { Services } from "./components/Services";
 
 function App() {
     const [landingPageData, setLandingPageData] = useState<JSONData>();
@@ -14,8 +16,10 @@ function App() {
 
     return (
         <>
+            <NavBar />
             <Welcome />
             <AboutComponent data={landingPageData?.About} />
+            <Services data={landingPageData?.Services} />
         </>
     );
 }

@@ -27,28 +27,15 @@ export const AboutComponent = ({ data }: { data?: About }) => {
             <Separator>
                 <p>Sobre mi</p>
             </Separator>
-            <div id="about" style={{ margin: "20px 0px" }}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xs-12 col-md-6">
-                            <StyledImage
-                                src={image}
-                                className="img-responsive"
-                                alt=""
-                            />
-                        </div>
-                        <div className="col-xs-12 col-md-6">
-                            <div
-                                className="about-text"
-                                style={{ marginTop: "20px" }}
-                            >
-                                <StyledText>
-                                    {data && data?.paragraph}
-                                </StyledText>
-                                <StyledText>{data && data?.another}</StyledText>
-                            </div>
-                        </div>
-                    </div>
+            <div id="about" className="grid grid-cols-1 md:grid-cols-2">
+                <div className="p-10 flex justify-center items-center">
+                    <StyledImage src={image} className="" alt="" />
+                </div>
+                <div className="p-10 flex justify-center items-center flex-col">
+                    <StyledText>{data && data?.paragraph}</StyledText>
+                    <StyledText className="mt-[10px]">
+                        {data && data?.another}
+                    </StyledText>
                 </div>
             </div>
         </>

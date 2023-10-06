@@ -63,26 +63,35 @@
     ],
     "Services": [
         {
-            "icon": "img/icons/1.svg",
+            "images": [
+                "/images/services/reiki1.jpg",
+                "/images/services/reiki2.jpg",
+                "/images/services/reiki3.jpg"
+            ],
+            "time": 3500,
             "name": "Reiki:",
             "type": "TALLER CONTINUO. De formación todo el año con certificación oficial de la Alianza Argentina de Maestros de reiki.",
-            "text": "El Reiki fue desarrollado a finales del siglo XIX en Japón por Mikao Usui, quien formuló el sistema de sanación basado en la canalización de la energía universal a la energía vital, a través de las manos. La técnica se ha expandido y popularizado en todo el mundo desde entonces.El proceso de Reiki implica que el practicante coloque sus manos suavemente sobre o cerca del cuerpo del receptor, con el objetivo de canalizar la energía curativa hacia las áreas donde se encuentren desequilibrios o bloqueos. El Reiki ayuda a promover la relajación, reducir el estrés y estimular la capacidad natural del cuerpo para sanar."
+            "text": "El proceso de Reiki implica que el practicante coloque sus manos suavemente sobre o cerca del cuerpo del receptor, con el objetivo de canalizar la energía curativa hacia las áreas donde se encuentren desequilibrios o bloqueos. El Reiki ayuda a promover la relajación, reducir el estrés y estimular la capacidad natural del cuerpo para sanar."
         },
         {
-            "icon": "img/icons/2.svg",
+            "images": ["/images/services/meditacion1.jpg"],
             "name": "Meditación:",
             "type": "Taller continuo todo el año. Técnicas que son herramientas fundamentales para evolucionar al estrés. ",
             "text": "La meditación es una práctica que ha sido utilizada durante años en diversas culturas de todo el mundo. Su objetivo principal es cultivar la atención, la concentración, la claridad mental y la tranquilidad. La meditación implica enfocar la mente en un objeto de atención específica, como la respiración, un mantra, una imagen o una sensación, con el fin de entrenar la mente para estar presente y consciente en el momento actual."
         },
         {
-            "icon": "img/icons/3.svg",
+            "images": ["/images/services/tarot1.jpg"],
             "name": "Tarot y cartas oraculares:",
             "type": "Taller semestral.",
-            "text": "Exploración del lenguaje simbólico y arquetípico de los diferentes mazos de tarot. La perspectiva ontológica sobre el tarot, uno mismo y el aprendizaje de las mancias. El tarot es el conjunto de cartas con simbología y significados diversos, que se utiliza en este taller con fines de autoexploración, o como herramienta de reflexión personal, las cartas se han utilizado ancestralmente en diferentes culturas y tradiciones y han evolucionado a lo largo del tiempo, aunque el aprendizaje de estas es subjetivo y único."
+            "text": "Exploración del lenguaje simbólico y arquetípico de los diferentes mazos de tarot. La perspectiva ontológica sobre el tarot, uno mismo y el aprendizaje de las mancias.El tarot es el conjunto de cartas con simbología y significados diversos, que se utiliza en este taller con fines de autoexploración, o como herramienta de reflexión personal, las cartas se han utilizado ancestralmente en diferentes culturas y tradiciones y han evolucionado a lo largo del tiempo, aunque el aprendizaje de estas es subjetivo y único."
         },
         {
-            "icon": "img/icons/4.svg",
+            "images": [
+                "/images/services/herbolaria1.png",
+                "/images/services/herbolaria2.png"
+            ],
             "name": "Herbolaria:",
+            "time": 3200,
             "type": "Taller continuo.",
             "text": "La herbolaria y la unión con la naturaleza están estrechamente relacionadas, ya que la misma es una práctica que involucra el uso de plantas y hierbas naturales con propiedades medicinales y terapéuticas, en la interacción respetuosa y sostenible del ser con el entorno natural. Mi propósito es acompañarte y descubrir juntos las propiedades de las hierbas medicinales y su utilización en lo cotidiano."
         }

@@ -27,8 +27,9 @@ export interface Gallery {
 }
 
 export interface Service {
-    icon: string;
+    images: string[];
     name: string;
     type: string;
     text: string;
+    time?: number;
 }
