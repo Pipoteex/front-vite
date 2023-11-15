@@ -1,5 +1,3 @@
-import React from "react";
-
 const Email = () => {
     return (
         <div className="w-[100%] px-[10%] flex flex-col justify-center items-center mb-[5%]">

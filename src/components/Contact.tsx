@@ -1,11 +1,8 @@
 import styled from "styled-components";
 
 import fondoContacto from "../images/fondoSeparador.svg";
-import img1 from "../images/logo/yoga.jpeg";
 import InstagramLogo from "../images/icons/instagram.svg";
 import FacebookLogo from "../images/icons/facebook.svg";
-import Email from "./Email";
-
 /* const StyledImg = styled.div`
     display: flex;
     justify-content: center;
