@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 
 import bars from "../images/icons/bars.svg";
@@ -76,7 +76,7 @@ const StyledItem = styled.div`
 `;
 
 export const NavBar = () => {
-    const [setBackground, setSetBackground] = useState(false);
+    /* const [setBackground, setSetBackground] = useState(false); */
     const [viewItems, setViewItems] = useState(false);
 
     const handleOnClick = (event: React.MouseEvent<HTMLElement>) => {
@@ -86,7 +86,7 @@ export const NavBar = () => {
         setViewItems(false);
     };
 
-    useEffect(() => {
+    /* useEffect(() => {
         window.onscroll = function () {
             if (window.scrollY > 401) {
                 setSetBackground(true);
@@ -94,17 +94,10 @@ export const NavBar = () => {
                 setSetBackground(false);
             }
         };
-    }, []);
+    }, []); */
 
     return (
-        <StyledNavBar
-            id="mainNavBar"
-            style={
-                setBackground
-                    ? { backgroundColor: "#ebebeb" }
-                    : { backgroundColor: "transparent" }
-            }
-        >
+        <StyledNavBar id="mainNavBar" style={{ backgroundColor: "#ebebeb" }}>
             <StyledNavBarHeader
                 style={viewItems ? { borderBottom: "2px solid #fef3f1" } : {}}
             >
