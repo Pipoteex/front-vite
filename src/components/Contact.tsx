@@ -4,8 +4,9 @@ import fondoContacto from "../images/fondoSeparador.svg";
 import img1 from "../images/logo/yoga.jpeg";
 import InstagramLogo from "../images/icons/instagram.svg";
 import FacebookLogo from "../images/icons/facebook.svg";
+import Email from "./Email";
 
-const StyledImg = styled.div`
+/* const StyledImg = styled.div`
     display: flex;
     justify-content: center;
     img {
@@ -20,7 +21,7 @@ const StyledImg = styled.div`
             min-width: 200px;
         }
     }
-`;
+`; */
 
 const StyledFooter = styled.div`
     text-align: center;
@@ -44,9 +45,9 @@ const StyledInformation = styled.div`
 
 export const Contact = () => {
     //FUNTIONS
-    const handleOnClick = () => {
+    /* const handleOnClick = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
-    };
+    }; */
 
     return (
         <div
@@ -54,25 +55,9 @@ export const Contact = () => {
             style={{ backgroundImage: `url(${fondoContacto})` }}
             id="contact"
         >
-            <div className="grid grid-cols-1 pt-[20px] min-[800px]:grid-cols-2">
-                <StyledImg>
-                    <img
-                        src={img1}
-                        alt="yoga"
-                        className="shadow-2xl cursor-pointer"
-                        itemID={"welcome"}
-                        onClick={handleOnClick}
-                    />
-                </StyledImg>
-
+            <div className=" pt-[20px] flex justify-center ">
                 <StyledInformation>
-                    <div
-                        style={{
-                            fontSize: "26px",
-                            marginBottom: "10px",
-                        }}
-                        className="text-center font-[800]"
-                    >
+                    <div className="text-center font-[800] text-[35px] mb-[20px]">
                         Información de contacto:
                     </div>
                     <div>

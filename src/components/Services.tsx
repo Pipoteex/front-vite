@@ -17,12 +17,13 @@ const StyledItemServices = styled.div`
     & > div:nth-child(1) {
         width: 70%;
         h4 {
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 500;
             /* text-align: center; */
         }
         h6 {
-            text-decoration: underline;
+            /* text-decoration: underline; */
+            font-weight: 500;
         }
         span {
             font-weight: 300;

@@ -88,7 +88,7 @@ export const NavBar = () => {
 
     useEffect(() => {
         window.onscroll = function () {
-            if (window.scrollY > 400) {
+            if (window.scrollY > 401) {
                 setSetBackground(true);
             } else {
                 setSetBackground(false);
@@ -101,7 +101,7 @@ export const NavBar = () => {
             id="mainNavBar"
             style={
                 setBackground
-                    ? { backgroundColor: "#e2b8e8" }
+                    ? { backgroundColor: "#ebebeb" }
                     : { backgroundColor: "transparent" }
             }
         >
@@ -111,7 +111,7 @@ export const NavBar = () => {
                 <StyledItemsContainer>
                     <div></div>
                     <StyledItem itemID="about" onClick={handleOnClick}>
-                        Biografía
+                        Sobre Mí
                     </StyledItem>
                     <StyledItem itemID="services" onClick={handleOnClick}>
                         Talleres
@@ -138,7 +138,7 @@ export const NavBar = () => {
             {viewItems ? (
                 <StyledItemsContainerTwo>
                     <StyledItem itemID="about" onClick={handleOnClick}>
-                        Biografia
+                        Sobre Mí
                     </StyledItem>
                     <StyledItem itemID="services" onClick={handleOnClick}>
                         Talleres

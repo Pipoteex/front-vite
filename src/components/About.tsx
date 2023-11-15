@@ -1,6 +1,7 @@
-import image from "../images/claudia_martinez.jpeg";
 import styled from "styled-components";
+
 import Separator from "./global/Separator";
+import image from "../images/claudia.png";
 import { About } from "../types/types";
 
 const StyledImage = styled.img`

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 import trigo from "../images/logo/trigo.png";
-import fondo from "../images/newfondo.jpeg";
 
 const StyledMainWelcome = styled.div`
     display: flex;
@@ -12,6 +11,7 @@ const StyledMainWelcome = styled.div`
     width: 100vw;
     height: 100vh;
     background-size: cover;
+    background-color: #ebebeb;
 `;
 
 const StyledBoxContenet = styled.div`
@@ -23,7 +23,8 @@ const StyledBoxContenet = styled.div`
 
 const StyledTitle = styled.h2`
     font-size: 75px;
-    font-family: "Cedarville Cursive", cursive;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
     text-align: center;
     margin-top: 5%;
     @media (width > 800px) {
@@ -61,7 +62,7 @@ export const Welcome = () => {
     return (
         <StyledMainWelcome
             id={"welcome"}
-            style={{ backgroundImage: `url(${fondo})` }}
+            /* style={{ backgroundImage: `url(${fondo})` }} */
         >
             <div style={{ height: "100px" }}></div>
             <StyledBoxContenet>
