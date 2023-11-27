@@ -3,22 +3,6 @@ import styled from "styled-components";
 import fondoContacto from "../images/fondoSeparador.svg";
 import InstagramLogo from "../images/icons/instagram.svg";
 import FacebookLogo from "../images/icons/facebook.svg";
-/* const StyledImg = styled.div`
-    display: flex;
-    justify-content: center;
-    img {
-        width: 40%;
-        border-radius: 20px;
-        min-width: 300px;
-    }
-    @media (width < 800px) {
-        img {
-            width: 80%;
-            border-radius: 20px;
-            min-width: 200px;
-        }
-    }
-`; */
 
 const StyledFooter = styled.div`
     text-align: center;
@@ -41,11 +25,6 @@ const StyledInformation = styled.div`
 `;
 
 export const Contact = () => {
-    //FUNTIONS
-    /* const handleOnClick = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }; */
-
     return (
         <div
             className="bg-cover"
@@ -58,9 +37,9 @@ export const Contact = () => {
                         Información de contacto:
                     </div>
                     <div>
-                        <div>
+                        {/* <div>
                             <b>- Dirección:</b> Corrientes
-                        </div>
+                        </div> */}
                         <div>
                             <b>- Correo:</b> yoga.claudiamartinez@gmail.com
                         </div>
