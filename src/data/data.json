@@ -80,7 +80,7 @@
             "text": "La meditación es una práctica que ha sido utilizada durante años en diversas culturas de todo el mundo. Su objetivo principal es cultivar la atención, la concentración, la claridad mental y la tranquilidad. La meditación implica enfocar la mente en un objeto de atención específica, como la respiración, un mantra, una imagen o una sensación, con el fin de entrenar la mente para estar presente y consciente en el momento actual."
         },
         {
-            "images": ["/images/services/tarot1.jpg"],
+            "images": ["/images/services/tarot2.jpeg"],
             "name": "Tarot y cartas oraculares:",
             "type": "Taller semestral.",
             "text": "Exploración del lenguaje simbólico y arquetípico de los diferentes mazos de tarot. La perspectiva ontológica sobre el tarot, uno mismo y el aprendizaje de las mancias.El tarot es el conjunto de cartas con simbología y significados diversos, que se utiliza en este taller con fines de autoexploración, o como herramienta de reflexión personal, las cartas se han utilizado ancestralmente en diferentes culturas y tradiciones y han evolucionado a lo largo del tiempo, aunque el aprendizaje de estas es subjetivo y único."
@@ -94,6 +94,12 @@
             "time": 3200,
             "type": "Taller continuo.",
             "text": "La herbolaria y la unión con la naturaleza están estrechamente relacionadas, ya que la misma es una práctica que involucra el uso de plantas y hierbas naturales con propiedades medicinales y terapéuticas, en la interacción respetuosa y sostenible del ser con el entorno natural. Mi propósito es acompañarte y descubrir juntos las propiedades de las hierbas medicinales y su utilización en lo cotidiano."
+        },
+        {
+            "images": ["/images/services/yogaP.jpeg"],
+            "name": "Yoga personalizado.",
+            "type": "Consultar.",
+            "text": "El yoga personalizado se refiere a una práctica de yoga adaptada específicamente a las necesidades, habilidades y objetivos de una persona en particular. En lugar de seguir una clase de yoga genérica, un instructor de yoga personalizado trabaja directamente con el individuo para crear una rutina que se ajuste a sus necesidades y metas específicas."
         }
     ],
     "Cangorosa": {
