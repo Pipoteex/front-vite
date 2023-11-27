@@ -50,12 +50,18 @@ export const Contact = () => {
                             <img
                                 src={InstagramLogo}
                                 style={{ cursor: "pointer", margin: "10px" }}
+                                onClick={() =>
+                                    window.open(
+                                        "https://www.instagram.com/yoga.claudiamartinez/?igshid=MzMyNGUyNmU2YQ%3D%3D",
+                                        "_blank"
+                                    )
+                                }
                             />
 
-                            <img
+                            {/* <img
                                 src={FacebookLogo}
                                 style={{ cursor: "pointer", margin: "10px" }}
-                            />
+                            /> */}
                         </div>
                     </div>
                 </StyledInformation>
