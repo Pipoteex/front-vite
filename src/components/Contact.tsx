@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 import fondoContacto from "../images/fondoSeparador.svg";
 import InstagramLogo from "../images/icons/instagram.svg";
-import FacebookLogo from "../images/icons/facebook.svg";
 
 const StyledFooter = styled.div`
     text-align: center;
