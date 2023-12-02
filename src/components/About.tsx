@@ -30,7 +30,7 @@ export const AboutComponent = ({ data }: { data?: About }) => {
     return (
         <>
             <Separator>
-                <p>Sobre mi</p>
+                <p>Sobre mí</p>
             </Separator>
             <div id="about" className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="p-10 flex justify-center items-center">
